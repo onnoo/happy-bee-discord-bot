@@ -54,7 +54,7 @@ async def search(ctx, *, summoner_name):
 
     thumbnail_url = f"http://z.fow.kr/img/emblem/{league['tier'].lower()}.png"
 
-    embed = discord.Embed(title=title, description=description)
+    embed = discord.Embed(title=title, description=description, color=0xffa62b)
     embed.set_author(name=author_name, icon_url=author_icon_url)
     embed.set_thumbnail(url=thumbnail_url)
     await ctx.send(embed=embed)
