@@ -7,7 +7,7 @@ from discord.ext import commands
 
 bot = commands.Bot(command_prefix="!")
 bot_token = os.environ['BOT_TOKEN']
-riot_token = os.environ['X-RIOT-TOKEN']
+riot_token = os.environ['X_RIOT_TOKEN']
 
 
 @bot.event
