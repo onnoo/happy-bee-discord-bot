@@ -1,1 +1,1 @@
-release: python3 run.py
+worker: python name_of_bot_file.py
